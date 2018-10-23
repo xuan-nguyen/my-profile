@@ -1,0 +1,168 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container1, .container2, .container3  {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container1, .container2, .container3 {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container1, .container2, .container3{
+    width: 300px;
+  }
+}
+
+h2 {
+  	color: crimson;
+	font-size: 23px;
+	letter-spacing: 2px;
+	font-family: Raleway, sans-serif;
+	text-align:center;
+	font-weight: bold;
+}
+
+h3 {
+	letter-spacing: 1px;
+	font-size: 14px;
+	font-family: Avenir, sans-serif;
+}
+
+body {
+	font-family: Avenir, sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top:3%;
+	margin-bottom: 5%;
+	background-color: powderblue;
+	background-image:url(images/wall3.png);
+}
+
+p {
+	font-family: Avenir, sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+a {
+  color: #FFBF00;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: crimson;
+  text-decoration: none;
+}
+
+.container1, .container2, .container3, .container4{
+  width: 750px; /* set the width of your container */
+  float: center;
+  margin: 15px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+  text-align: center;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  border-top: 6px solid chocolate;
+}
+
+.cat1 {
+	width: 91%;
+	padding-right: 3px;
+	padding-left:20px;
+	float: right, absolute;
+	padding-bottom: 20px;
+}
+
+.cat2 {
+	float: left;
+	width: 60%;
+	padding-right: 20px;
+	padding-left: 75px;
+	text-align: justify;
+	padding-bottom: 30px;
+}
+
+.cat3 {
+	width: 94%;
+	padding-bottom: 30px;
+}
+
+.cat1, .cat2, .cat3 {
+	text-align: justify;
+}
+
+.t-hobbie1{
+margin-right: 375px;
+padding-top: 15px;
+}
+
+.t-hobbie3{
+	text-align: left;
+	margin-right: 300px;
+}
+
+.t-hobbie2{
+	margin-left: 350px;
+}
+
+.mot-clé{
+	font-size: 15px;
+	color: sandybrown;
+	font-weight: bold;
+}
+
+.logoTP, .seychelles {
+	float: left;
+	padding-left: 70px;
+	padding-right: 50px;
+}
+
+.fa-linkedin, .fa-twitter, .fa-instagram {
+	font-size: 30px;
+}
+
+.fa-pen-nib, .fa-camera-retro, .fa-plane {
+	color: #FFBF00;
+}
+
+#titre{
+	font-family:Raleway, sans-serif;
+	color:crimson;
+	font-size:30px;
+	letter-spacing: 0.4px;
+	text-align: center;
+}
+
+#main{
+	font-family: Avenir, sans-serif;
+	position: center;
+}
+
+#bouton{
+	background-color: #FFBF00;
+	color:white;
+	padding: 9px;
+	margin-top: 40px;
+	font-family: Avenir, sans-serif;
+	margin-bottom: 10px;
+}
+
+#a-propos{
+	text-align:justify;
+	padding: 25px;
+	font-family: Avenir, sans-serif;
+}
+
+#photoNY {
+	float: right;
+	padding-right: 45px;
+	padding-top: 5px;
+}
