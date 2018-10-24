@@ -1,20 +1,21 @@
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
-  .card1, .card2, .card3, .card4 {
+  .container {
     width: 700px;
+    min-width: 50px;
   }
 }
 
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
-  .card1, .card2, .card3, .card4 {
+  .container {
     width: 500px;
   }
 }
 
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
-  .card1, .card2, .card3, .card4 {
+  .container {
     width: 300px;
   }
 }
@@ -31,7 +32,6 @@ h2 {
 h3 {
 	letter-spacing: 2px;
 	font-size: 14px;
-	font-family: Avenir, sans-serif;
 }
 
 body {
@@ -40,12 +40,6 @@ body {
 	font-size: 14px;
 	text-align: justify;
 	background-image:url(images/wall3.jpg);
-}
-
-p {
-	font-family: Avenir, sans-serif;
-	font-size: 14px;
-	text-align: center;
 }
 
 a {
@@ -80,71 +74,13 @@ li {
   	margin-bottom: 15px;
 }
 
-.competences, {
-	font-size: 17px;
-	letter-spacing: 2px;
-}
-
 .mot-cle {
 	font-size: 15px;
 	color: sandybrown;
 	font-weight: bold;
 }
 
-.logoTP {
-	float: left;
-	padding-left: 70px;
-	padding-right: 50px;
-}
-
-.photo-texte, .voyage-texte, .graphisme-texte, .marketing, .communication{
-	padding-right: 25px;
-	padding-left:25px;
-	padding-bottom: 21px;
-	padding-top: 3px;
-	text-align: justify;
-	background-color: white;
-	margin-bottom: 15px;
-}
-
-.graphisme-texte {
-	width: 74.5%;
-	margin-left:10%;
-}
-
-.photoNY {
-	float: right;
-	clear:both;
-	margin-right: 9%;
-	border: #FFBF00 solid 2px;
-}
-
-.photo-texte {
-	width: 40%;
-	margin-left: 10%;
-}
-
-.seychelles{
-	float: left;
-	clear:both;
-	margin-left: 10%;
-	border: #FFBF00 solid 2px;
-}
-
-.voyage-texte {
-	width: 40.5%;
-	margin-left: 44%;
-}
-
-.fa-linkedin, .fa-twitter, .fa-instagram {
-	font-size: 30px;
-}
-
-.fa-pen-nib, .fa-camera-retro, .fa-plane, .fa-video, .fa-tv {
-	color: #FFBF00;
-	font-size: 17px;
-}
-
+/* Sous-catégorie dans la partie Expériences */
 .communication {
 	float: left;
 	clear:both;
@@ -161,9 +97,64 @@ li {
 	background-color: white;
 }
 
+/* Cases blanche dans les catégories */
+.photo-texte, .voyage-texte, .graphisme-texte, .marketing, .communication{
+	padding-right: 25px;
+	padding-left:25px;
+	padding-bottom: 21px;
+	padding-top: 3px;
+	text-align: justify;
+	background-color: white;
+	margin-bottom: 15px;
+}
+
+/* Catégorie Hobbies */
+.competences {
+	font-size: 17px;
+	letter-spacing: 2px;
+}
+
+.photo-texte {
+	width: 40%;
+	margin-left: 10%;
+}
+
+.photoNY {
+	float: right;
+	clear:both;
+	margin-right: 9%;
+	border: #FFBF00 solid 2px;
+}
+
+.seychelles{
+	float: left;
+	clear:both;
+	margin-left: 10%;
+	border: #FFBF00 solid 2px;
+}
+
+.voyage-texte {
+	width: 40.5%;
+	margin-left: 44%;
+}
+
+.graphisme-texte {
+	width: 74.5%;
+	margin-left:10%;
+}
+
 .affiche1, .affiche2, .affiche3 {
 	margin: 10px;
 	border: #FFBF00 solid 2px;
+}
+
+.fa-linkedin, .fa-twitter, .fa-instagram {
+	font-size: 30px;
+}
+
+.fa-pen-nib, .fa-camera-retro, .fa-plane, .fa-video, .fa-tv {
+	color: #FFBF00;
+	font-size: 17px;
 }
 
 #titre {
@@ -174,6 +165,7 @@ li {
 	text-align: center;
 }
 
+/* Premières lignes d'introduction */
 #main{
 	font-family: Avenir, sans-serif;
 	font-size: 15px;
@@ -187,12 +179,4 @@ li {
 	margin-top: 40px;
 	font-family: Avenir, sans-serif;
 	margin-bottom: 10px;
-}
-
-#a-propos{
-	padding-top: 20px;
-	text-align: justify;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 5px;
 }
