@@ -58,6 +58,13 @@ a:hover {
   text-decoration: none;
 }
 
+/*Logos Entreprise*/
+li {
+	display: inline;
+	list-style: none;
+	margin: 8px;
+}
+
 .card1, .card2, .card3, .card4{
 	margin-left: auto;
 	margin-right: auto;
@@ -138,12 +145,6 @@ a:hover {
 	font-size: 17px;
 }
 
-li {
-	display: inline;
-	list-style: none;
-	margin: 8px;
-}
-
 .communication {
 	float: left;
 	clear:both;
@@ -158,6 +159,11 @@ li {
 	margin-left: 51%;
 	text-align: justify;
 	background-color: white;
+}
+
+.affiche1, .affiche2, .affiche3 {
+	margin: 10px;
+	border: #FFBF00 solid 2px;
 }
 
 #titre {
@@ -189,9 +195,4 @@ li {
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 5px;
-}
-
-.affiche1, .affiche2, .affiche3 {
-	margin: 10px;
-	border: #FFBF00 solid 2px;
 }
