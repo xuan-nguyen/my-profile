@@ -182,17 +182,17 @@ li {
   	margin-top: 10%;
   }
 
-  #main {
-  	font-size: 12px;
-  }
-
-  .mot-cle {
+   .mot-cle {
   	font-size: 12px;
   }
 	.communication {
-		margin-left: 0.1%;
-		width: 40%;
+	margin-left: 0.1%;
+	width: 40%;
 	}
+
+  #main {
+  	font-size: 12px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -205,15 +205,11 @@ li {
   	padding-bottom: 20px;
   }
 
-   body {
+  body {
    	font-size: 12px;
    }
 
-   #bouton{
-   	padding: 6px;
-   }
-
-    .photoNY {
+   .photoNY {
   	margin-right: 3%;
 	}
 
@@ -236,5 +232,7 @@ li {
 	width: 45%;
 	}
 
-
+	#bouton{
+   	padding: 6px;
+   }
 }
